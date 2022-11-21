@@ -1,7 +1,7 @@
 {
   "name": "ecs-mongo-setup",
   "version": "1.0.0",
-  "description": "",
+  "description": "install MongoDB on Amazon ECS Fargate and mount EFS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
