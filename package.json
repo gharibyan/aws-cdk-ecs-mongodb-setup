@@ -6,9 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gharibyan/aws-cdk-ecs-mongodb-setup.git"
+  },
+  "keywords": ["cdk", "ecs", "mongodb", "efs", "install"],
+  "author": "gharibyan",
   "dependencies": {
     "aws-cdk-lib": "^2.51.0",
     "constructs": "^10.1.163"

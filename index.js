@@ -11,7 +11,7 @@ const domain = process.env.DOMAIN
 const cpu = process.env.CPU || 1024
 const memoryLimitMiB = process.env.MEMORY_LIMIT || 2048
 
-class MongoDb extends cdk.Stack {
+class ECSMongoDbSetup extends cdk.Stack {
   constructor (scope, id, props) {
     super(scope, id, props)
 
@@ -110,7 +110,7 @@ const app = new cdk.App()
 const applicationName = app.node.tryGetContext('applicationName')
 
 // eslint-disable-next-line no-new
-new MongoDb(app, 'MongoDb', {
+new ECSMongoDbSetup(app, 'MongoDb', {
   applicationName: applicationName || 'mongoDb',
   env: {
     account: process.env.CDK_DEFAULT_ACCOUNT,
