@@ -1,0 +1,19 @@
+{
+  "name": "ecs-mongo-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-cdk-lib": "^2.51.0",
+    "constructs": "^10.1.163"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
